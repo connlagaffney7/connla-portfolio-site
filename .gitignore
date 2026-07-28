@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+.archive/
+
+# Vendored Claude Code tooling — reinstallable, and 137 files of it would
+# bury the site's own history. Machine-local permissions stay local too.
+.claude/skills/
+.claude/settings.local.json
