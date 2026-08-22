@@ -122,8 +122,8 @@ export default function Hero() {
                 className="font-semibold text-cobalt underline decoration-2 underline-offset-[3px] transition-[text-decoration-thickness,text-underline-offset] duration-200 hover:decoration-[3px] hover:underline-offset-[5px]"
               >
                 {EMAIL_ADDRESS}
-              </a>{" "}
-              — let&rsquo;s chat.
+              </a>
+              . Let&rsquo;s chat.
             </p>
           </motion.div>
         </motion.div>
