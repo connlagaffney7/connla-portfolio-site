@@ -92,7 +92,7 @@ export default function SampleModal({ email, onClose }) {
                 : { type: "spring", stiffness: 260, damping: 26, mass: 0.9 }
             }
           >
-            <div className="sticky top-0 z-10 flex items-start justify-between gap-4 rounded-t-3xl border-b border-charcoal/10 bg-white/80 p-6 backdrop-blur-xl sm:p-8">
+            <div className="flex items-start justify-between gap-4 rounded-t-3xl border-b border-charcoal/10 bg-white/80 p-6 backdrop-blur-xl sm:p-8">
               <div>
                 <p className="text-label font-semibold uppercase tracking-[0.16em] text-cobalt">
                   {email.tag} · {email.format}
