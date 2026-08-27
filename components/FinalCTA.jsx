@@ -19,7 +19,7 @@ export default function FinalCTA() {
               id="cta-heading"
               className="max-w-[26ch] font-display text-display font-extrabold leading-[1.03] tracking-[-0.035em] text-charcoal"
             >
-              One spot left <span className="text-cobalt">this month.</span>
+              Stuck under <span className="text-cobalt">$10k/month?</span>
             </h2>
 
             <p className="mt-6 max-w-[50ch] text-base leading-relaxed text-charcoal-soft">

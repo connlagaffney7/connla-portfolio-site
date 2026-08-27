@@ -29,7 +29,7 @@ export default function Testimonials() {
         </Reveal>
         <Reveal index={1}>
           <p className="mt-5 max-w-[54ch] text-base leading-relaxed text-charcoal-soft">
-            This section holds real client outcomes only. Unscripted, on camera, and never an
+            What people in the community are saying. Unscripted, on camera, and never an
             invented quote.
           </p>
         </Reveal>
