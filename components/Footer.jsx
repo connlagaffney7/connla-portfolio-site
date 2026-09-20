@@ -1,3 +1,5 @@
+import { EMAIL_ADDRESS } from "@/lib/emails";
+
 const SOCIALS = [
   { label: "Instagram", href: "https://www.instagram.com/connlagaffney77/" },
   { label: "Facebook", href: "https://www.facebook.com/connla.gaffney.3/" },
@@ -20,9 +22,15 @@ export default function Footer() {
             </a>
           ))}
         </nav>
-        <p className="text-small text-charcoal-soft">
-          Connla Gaffney · Email copywriting for cognitive supplement brands
-        </p>
+        <div className="flex flex-col gap-2 text-small text-charcoal-soft sm:text-right">
+          <p>Connla Gaffney · Connla Gaffney Copywriting</p>
+          <p>10 Ballyrussell Road, Warrenpoint, BT34 3QE</p>
+          <p>{EMAIL_ADDRESS}</p>
+          <p>
+            I contact business addresses on a legitimate-interest basis under UK GDPR, and every
+            email carries a working opt-out.
+          </p>
+        </div>
       </div>
     </footer>
   );

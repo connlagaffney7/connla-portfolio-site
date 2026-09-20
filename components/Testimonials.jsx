@@ -5,12 +5,12 @@ import Reveal from "./Reveal";
 const TESTIMONIALS = [
   {
     name: "John Veylon",
-    role: "Email Marketing",
+    role: "Worked with John in the CMB community",
     src: "/testimonials/videos/john-veylon.mp4",
   },
   {
     name: "Devon Prochaska",
-    role: "Writer-Creator-Marketer",
+    role: "Worked with Devon in the CMB community",
     src: "/testimonials/videos/devon-prochaska.mp4",
   },
 ];
@@ -24,13 +24,13 @@ export default function Testimonials() {
             id="testimonials-heading"
             className="max-w-[22ch] font-display text-display font-extrabold leading-[1.04] tracking-[-0.035em] text-charcoal"
           >
-            Testimonials.
+            Peer credibility.
           </h2>
         </Reveal>
         <Reveal index={1}>
           <p className="mt-5 max-w-[54ch] text-base leading-relaxed text-charcoal-soft">
-            What people in the community are saying. Unscripted, on camera, and never an
-            invented quote.
+            Devon and John have both worked with me. They speak to what I&rsquo;m like to work
+            with: reliability, communication, skill.
           </p>
         </Reveal>
 

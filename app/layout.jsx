@@ -14,13 +14,13 @@ const archivo = Archivo({
 });
 
 export const metadata = {
-  title: "Connla Gaffney · Email copywriting for cognitive supplement brands",
+  title: "Connla Gaffney Copywriting · Get supplement emails out of spam",
   description:
-    "I help cognitive supplement brands stuck under $10k/month in email revenue build a system that gets them past it.",
+    "I help supplement and wellness brands whose emails land in spam or Promotions get seen in the inbox, or they don't pay the second half.",
   openGraph: {
-    title: "Connla Gaffney · Email copywriting for cognitive supplement brands",
+    title: "Connla Gaffney Copywriting · Get supplement emails out of spam",
     description:
-      "I help cognitive supplement brands stuck under $10k/month in email revenue build a system that gets them past it.",
+      "I help supplement and wellness brands whose emails land in spam or Promotions get seen in the inbox, or they don't pay the second half.",
     type: "website",
   },
 };

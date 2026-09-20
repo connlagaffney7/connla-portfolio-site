@@ -39,9 +39,8 @@ export default function Samples() {
         </Reveal>
         <Reveal index={1}>
           <p className="mt-5 max-w-[54ch] text-base leading-relaxed text-charcoal-soft">
-            Five from my portfolio, written for the cognitive supplement and sports supplement
-            space. Subject line first, exactly as it lands in the inbox. Open one to read it in
-            full.
+            Five from my portfolio, written for supplement and wellness brands. Subject line
+            first, exactly as it lands in the inbox. Open one to read it in full.
           </p>
         </Reveal>
 

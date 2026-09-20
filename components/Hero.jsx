@@ -3,11 +3,11 @@
 import { useMemo } from "react";
 import { motion, useMotionValue, useReducedMotion } from "framer-motion";
 import FloatingStack from "./FloatingStack";
-import { EMAIL_ADDRESS } from "@/lib/emails";
+import { CALENDLY_URL } from "@/lib/emails";
 
 const HEADLINE =
-  "I help cognitive supplement brands stuck under $10k/month in email revenue build a system that gets them past it.";
-const ACCENT_WORD = "$10k/month";
+  "I help supplement and wellness brands whose emails land in spam or Promotions get seen in the inbox, or they don't pay the second half.";
+const ACCENT_WORD = "spam";
 const WORDS = HEADLINE.split(" ");
 
 export default function Hero() {
@@ -81,7 +81,7 @@ export default function Hero() {
             variants={block}
             className="text-label font-semibold uppercase tracking-[0.18em] text-cobalt"
           >
-            For nootropic &amp; cognitive supplement brands
+            For supplement &amp; wellness DTC brands
           </motion.p>
 
           <h1 id="bio-heading" className="mt-6">
@@ -109,21 +109,25 @@ export default function Hero() {
             variants={block}
             className="mt-7 max-w-[46ch] text-base leading-relaxed text-charcoal-soft"
           >
-            Based in Northern Ireland, powered by too much coffee and a genuine obsession with
-            figuring out why some emails print money and others get ignored.
+            I run Connla Gaffney Copywriting around one specific problem: supplement and wellness
+            brands whose emails aren&rsquo;t showing up where they should. My approach is diagnose,
+            fix, confirm &mdash; find exactly why you&rsquo;re landing in spam or Promotions, fix
+            it, then prove it&rsquo;s fixed before you pay the second half. If you&rsquo;re not sure
+            your subscribers are actually seeing what you send them, that&rsquo;s the first thing I
+            look at.
           </motion.p>
 
           <motion.div variants={block} className="glass mt-8 max-w-[52ch] rounded-2xl p-5 sm:p-6">
             <p className="text-base leading-relaxed text-charcoal">
-              I&rsquo;m taking on one more cognitive supplement brand this month who wants to unlock
-              consistent 5-figure email revenue. Email me at{" "}
+              A one-off fix, £1,500 in two parts: the second part is only invoiced once your
+              emails land in the inbox.{" "}
               <a
-                href={`mailto:${EMAIL_ADDRESS}`}
+                href={CALENDLY_URL}
                 className="font-semibold text-cobalt underline decoration-2 underline-offset-[3px] transition-[text-decoration-thickness,text-underline-offset] duration-200 hover:decoration-[3px] hover:underline-offset-[5px]"
               >
-                {EMAIL_ADDRESS}
+                Book a 15-minute inbox diagnosis
               </a>
-              . Let&rsquo;s chat.
+              .
             </p>
           </motion.div>
         </motion.div>
