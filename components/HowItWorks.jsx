@@ -40,7 +40,8 @@ export default function HowItWorks() {
         </Reveal>
         <Reveal index={1}>
           <p className="mt-5 max-w-[54ch] text-base leading-relaxed text-charcoal-soft">
-            Three steps. The second half of the fee is only invoiced once the third one is done.
+            Three steps. The first £750 starts the work. The second £750 is only invoiced once
+            the third step is done.
           </p>
         </Reveal>
 

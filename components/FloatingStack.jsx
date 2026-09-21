@@ -12,7 +12,7 @@ function useParallax(pointer, range, reduce) {
 
 /**
  * Layered glass cards holding real portfolio content: subject lines Connla has
- * actually written, and his real availability line. Nothing here is invented.
+ * actually written. Nothing here is invented.
  *
  * The back card carries deliberate bottom padding so the front card overlaps
  * empty space rather than clipping a subject line mid-word.
@@ -36,8 +36,6 @@ export default function FloatingStack({ pointerX, pointerY }) {
   const backY = useParallax(pointerY, [12, -12], reduce);
   const frontX = useParallax(pointerX, [-26, 26], reduce);
   const frontY = useParallax(pointerY, [-18, 18], reduce);
-  const pillX = useParallax(pointerX, [-38, 38], reduce);
-  const pillY = useParallax(pointerY, [-24, 24], reduce);
 
   const float = (duration) =>
     reduce || !onScreen
@@ -105,21 +103,6 @@ export default function FloatingStack({ pointerX, pointerY }) {
           </p>
           <p className="mt-2 text-small leading-relaxed text-charcoal-soft">
             3pm rolls around and BOOM, you feel like you are ready for bed.
-          </p>
-        </motion.div>
-      </motion.div>
-
-      {/* Availability pill */}
-      <motion.div
-        style={{ x: pillX, y: pillY }}
-        initial={reduce ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ ...cardSpring, delay: 0.78 }}
-        className="absolute right-0 top-0"
-      >
-        <motion.div animate={float(5.2)} className="glass rounded-full px-4 py-2.5 sm:px-5 sm:py-3">
-          <p className="text-label font-semibold uppercase tracking-[0.16em] text-charcoal">
-            One client spot open this month
           </p>
         </motion.div>
       </motion.div>
